@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+// https://codeforces.com/problemset/problem/71/A
+
 using namespace std;
 
 int main(int argc, char const *argv[])

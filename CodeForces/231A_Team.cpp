@@ -1,5 +1,7 @@
 #include <iostream>
 
+// https://codeforces.com/problemset/problem/231/A
+
 using namespace std;
 
 int main()
