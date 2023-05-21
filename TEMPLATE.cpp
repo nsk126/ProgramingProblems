@@ -18,7 +18,6 @@ using namespace std;
 //
 
 void print_vector(vector<int> vec); // print int elements of a vector
-void print_strchars(string s);
 void solve();
 
 int main(int argc, char const *argv[])
