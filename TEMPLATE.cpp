@@ -17,7 +17,8 @@ using namespace std;
 
 //
 
-void print_vector(vector<int> vec); // print int elements of a vector
+void print_vector(vector<int> vec);
+void print_vector(vector<string> vec);
 void solve();
 
 int main(int argc, char const *argv[])
@@ -32,6 +33,12 @@ void solve(){
 
 void print_vector(vector<int> vec){
     for(int x : vec)
+        cout << x << " ";
+    cout << endl;
+}
+
+void print_vector(vector<string> vec){
+    for(string x : vec)
         cout << x << " ";
     cout << endl;
 }
