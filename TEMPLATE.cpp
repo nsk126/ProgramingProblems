@@ -6,6 +6,7 @@
 #include <map>
 #include <unordered_map>
 #include <unordered_set>
+#include <stack>
 #include <sstream>
 
 #define ISEVEN(x) x % 2 == 0 // is even
