@@ -17,14 +17,35 @@
 
 using namespace std;
 
-//
+// https://leetcode.com/problems/single-number/
 
 void print_vector(vector<int> vec);
 void print_vector(vector<string> vec);
 void solve();
 
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+
+        int res = 0;
+
+        for(auto num: nums){
+
+            res ^= num;
+        }
+
+        return res;
+    }
+};
+
 int main(int argc, char const *argv[])
 {
+    vector <int> tc = {2,2,1};
+
+    Solution sol;
+    int res = sol.singleNumber(tc);
+
+    LOGN(res);
 
     return 0;
 }
