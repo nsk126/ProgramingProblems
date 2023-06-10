@@ -21,6 +21,7 @@ using namespace std;
 
 void print_vector(vector<int> vec);
 void print_vector(vector<string> vec);
+void print_vector(vector<float> vec);
 void solve();
 
 int main(int argc, char const *argv[])
@@ -41,6 +42,12 @@ void print_vector(vector<int> vec){
 
 void print_vector(vector<string> vec){
     for(string x : vec)
+        cout << x << " ";
+    cout << endl;
+}
+
+void print_vector(vector<float> vec){
+    for(float x : vec)
         cout << x << " ";
     cout << endl;
 }
